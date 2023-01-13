@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Potta+One&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Potta One', cursive; */
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family:  cursive;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px rgb(4, 226, 247), 0 0 82px rgb(4, 226, 247), 0 0 92px rgb(4, 226, 247), 0 0 102px rgb(4, 226, 247), 0 0 151px rgb(4, 226, 247);
+    font-weight: 100;
+}
+
+.button {
+    width: 6vw;
+    padding: 34px;
+    margin: 0 3px;
+    border: 4px solid rgb(4, 226, 247);
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: rgb(40, 62, 65);
+    color: rgb(4, 226, 247);
+}
+
+.button:hover {
+    background-color: rgb(142, 230, 241);
+    padding: 36px;
+    border: 4px solid rgb(0, 135, 153);
+    box-shadow: 5px 5px rgba(173, 238, 248, 0.342);
+    border-radius: 9px;
+    color: rgb(40, 62, 65);
+}
+
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    width: 25vw;
+    padding: 10px 5px;
+    margin: 0;
+    border: 4px solid rgb(4, 226, 247);
+    border-radius: 10px;
+    background-color: rgb(40, 62, 65);
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(4, 226, 247);
+}
+
+.row input:hover {
+    background-color: rgb(142, 230, 241);
+    border: 4px solid rgb(0, 135, 153);
+    box-shadow: 5px 5px rgba(173, 238, 248, 0.342);
+    border-radius: 9px;
+    color: rgb(40, 62, 65);
+}
+
+@media(max-width: 1275px) {
+    .row input {
+        width: 27vw;
+    }
+}
+
+@media(max-width: 1150px) {
+    .row input {
+        width: 30vw;
+    }
+}
+
+@media(max-width: 1000px) {
+    .row input {
+        width: 33vw;
+    }
+}
+
+@media(max-width: 900px) {
+    .row input {
+        width: 37vw;
+    }
+}
+
+@media(max-width: 750px) {
+    .row input {
+        width: 45vw;
+    }
+}
+
+@media(max-width: 650px) {
+    .row input {
+        width: 50vw;
+    }
+}
+
+@media(max-width: 550px) {
+    .row input {
+        width: 60vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .row input {
+        width: 75vw;
+    }
+}
+
+@media(max-width: 400px) {
+    .row input {
+        width: 80vw;
+    }
+}
